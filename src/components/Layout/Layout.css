@@ -1,0 +1,9 @@
+.layout {
+  position: relative;
+  display: grid;
+  grid-template:
+    'top-panel top-panel top-panel' 104px
+    'slides-panel slide option-panel' calc(100% - 104px) / 320px 1fr 420px;
+  height: 100vh;
+  user-select: none;
+}

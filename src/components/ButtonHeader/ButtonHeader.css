@@ -1,0 +1,33 @@
+.button {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all .3s ease-in-out;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.button:active {
+  transition: none;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  color: #f6f6f2;
+  font:
+    700
+    14px/20px Roboto,
+    Arial,
+    sans-serif;
+}

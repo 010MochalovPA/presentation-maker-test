@@ -1,0 +1,15 @@
+.toolbar {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #D4D4D4;
+}
+
+.toolbar > div {
+  margin-right: 7px;
+}
+
+.toolbar > div:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,21 @@
+.text {
+  position: absolute;
+  overflow: hidden;
+  user-select: none;
+  z-index: 1;
+  border: 2px solid transparent;
+}
+
+.input {
+  overflow: hidden;
+  resize: none;
+  display: block;
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.input:focus {
+  outline: none;
+}

@@ -1,0 +1,17 @@
+.slide-preview {
+  background-color: white;
+  width: 256px;
+  height: 192px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.active {
+  outline: 4px solid #B352FF;
+  z-index: 2;
+}
+
+.slide {
+  position: relative;
+}

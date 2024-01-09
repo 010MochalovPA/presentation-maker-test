@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 7px 0 7px 21px;
+}
+
+.toolbar > div {
+  margin-right: 7px;
+}
+
+.toolbar > div:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,38 @@
+.slides-panel {
+  grid-area: slides-panel;
+  padding: 20px 0;
+  background: #F9F9F9;
+  overflow-y: auto;
+  border-right: 1px solid #D4D4D4;
+}
+
+.slides-wrapper {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-slide-button {
+  width: 256px;
+  min-height: 192px;
+  border-radius: 15px;
+  background: #E9E9E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.new-slide-button:hover {
+  background: #D9D9D9;
+}
+
+.new-slide-button:active {
+  transition: none;
+  background: #C9C9C9;
+}

@@ -1,0 +1,12 @@
+.preview {
+  max-height: 720px;
+  overflow-y: scroll;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+}

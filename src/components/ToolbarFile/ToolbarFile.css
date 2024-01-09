@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toolbar > div {
+  margin-right: 8px;
+}
+
+.hidden {
+  display: none;
+}

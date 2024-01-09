@@ -1,0 +1,24 @@
+.slide {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+  transform-origin: left top;
+  border: 1px solid #388087;
+  flex-shrink: 0;
+}
+
+.slide-preview {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+  transform-origin: left top;
+  border-radius: 60px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}

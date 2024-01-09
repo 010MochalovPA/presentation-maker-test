@@ -1,0 +1,9 @@
+.top-panel {
+  grid-area: top-panel;
+  background: #F9F9F9;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+.toolbars {
+  display: flex;
+}

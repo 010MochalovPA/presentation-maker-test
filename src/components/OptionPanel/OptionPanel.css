@@ -1,0 +1,8 @@
+.option-panel {
+  padding: 10px;
+  grid-area: option-panel;
+  background: #F9F9F9;
+  overflow-y: auto;
+  position: relative;
+  border-left: 1px solid #D4D4D4;
+}

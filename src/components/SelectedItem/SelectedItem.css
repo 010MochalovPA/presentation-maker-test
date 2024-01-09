@@ -1,0 +1,4 @@
+.selected {
+  position: absolute;
+  z-index: 199;
+}
