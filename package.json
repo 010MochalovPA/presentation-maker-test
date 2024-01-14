@@ -3,7 +3,9 @@
   "scripts": {
     "lint": "npx eslint . --fix && npx stylelint \"**/*.css\" --fix ",
     "dev": "webpack serve --config webpack.config.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
